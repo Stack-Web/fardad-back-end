@@ -1,0 +1,36 @@
+@import "links";
+@import "colors";
+@import "fonts";
+
+*{
+  box-sizing: border-box;
+  font-family: Vazirmatn, "Vazirmatn FD", serif;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+body{
+    background-color: $bg2;
+}
+
+// Preloader
+#preloader{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@import "index";
+@import "products";
+@import "product";
+@import "blogs";
+@import "blog";
+@import "footer";
+@import "responsive";
