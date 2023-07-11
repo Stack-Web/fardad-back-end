@@ -27,7 +27,8 @@
       position: absolute;
       bottom: 1px;
       right: 10px;
-      color: dodgerblue;
+      color: white;
+      text-shadow: 2px 2px 2px black;
       font-size: 12px;
     }
 
@@ -83,7 +84,6 @@
 
     .blogs-date {
       font-size: 12px;
-      color: $bg2;
     }
 
     .blogs-paragraph {
